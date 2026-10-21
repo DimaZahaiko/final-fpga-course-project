@@ -7,7 +7,7 @@ module tb_system;
     always #5 diff_clock_rtl_0_clk_p = ~diff_clock_rtl_0_clk_p;  // 100 МГц
 
     reg reset_rtl_0 = 0;   // reset активний 
-    reg sig_in;
+    reg sig_in = 0;
     design_1_wrapper dut(
         .diff_clock_rtl_clk_n(diff_clock_rtl_0_clk_n),
         .diff_clock_rtl_clk_p(diff_clock_rtl_0_clk_p),
