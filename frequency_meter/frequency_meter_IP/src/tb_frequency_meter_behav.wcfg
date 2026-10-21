@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_frequency_meter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_frequency_meter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5.927500 us"></ZoomStartTime>
+      <ZoomEndTime time="41.492501 us"></ZoomEndTime>
+      <Cursor1Time time="35.565000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/tb_frequency_meter/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/sig_in" type="logic">
+      <obj_property name="ElementShortName">sig_in</obj_property>
+      <obj_property name="ObjectShortName">sig_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/synch_sig_in" type="logic">
+      <obj_property name="ElementShortName">synch_sig_in</obj_property>
+      <obj_property name="ObjectShortName">synch_sig_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/awvalid" type="logic">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/counting" type="logic">
+      <obj_property name="ElementShortName">counting</obj_property>
+      <obj_property name="ObjectShortName">counting</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/edge_count" type="array">
+      <obj_property name="ElementShortName">edge_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">edge_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/status" type="logic">
+      <obj_property name="ElementShortName">status</obj_property>
+      <obj_property name="ObjectShortName">status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/timer" type="array">
+      <obj_property name="ElementShortName">timer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/prev_sig" type="logic">
+      <obj_property name="ElementShortName">prev_sig</obj_property>
+      <obj_property name="ObjectShortName">prev_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/window" type="array">
+      <obj_property name="ElementShortName">window[31:0]</obj_property>
+      <obj_property name="ObjectShortName">window[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/s_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/dut/ctrl" type="logic">
+      <obj_property name="ElementShortName">ctrl</obj_property>
+      <obj_property name="ObjectShortName">ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_frequency_meter/rvalid" type="logic">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+   </wvobject>
+</wave_config>

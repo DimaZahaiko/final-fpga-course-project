@@ -1,0 +1,6 @@
+freq_meter_ip_0:
+- freq_meter_ip_
+- None
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram
