@@ -47,7 +47,6 @@ module freq_meter_ip(
     reg         axi_rvalid;
     assign      s_axi_rvalid = axi_rvalid;
     
-    //localparam integer ADDR_LSB = 2;
 
     reg [31:0] window;
     reg ctrl;

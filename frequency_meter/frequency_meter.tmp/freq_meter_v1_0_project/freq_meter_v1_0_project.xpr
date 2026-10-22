@@ -7,7 +7,7 @@
 <Project Product="Vivado" Version="7" Minor="72" Path="d:/fpga_homeworks_12plus/the_last_homework/frequency_meter/frequency_meter.tmp/freq_meter_v1_0_project/freq_meter_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="aadf5856ea194930be742a6c562eed56"/>
+    <Option Name="Id" Val="867c738506f04fd4ba2e808b62cbb3d4"/>
     <Option Name="Part" Val="xc7z020clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -48,6 +48,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../FPGA_homeworks_12plus/the_last_homework/frequency_meter/frequency_meter_IP"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../FPGA_homeworks_12plus/the_last_homework/ip_repo/freq_meter_1_0"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
