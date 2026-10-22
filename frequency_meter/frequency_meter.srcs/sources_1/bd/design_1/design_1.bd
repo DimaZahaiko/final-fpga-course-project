@@ -453,8 +453,8 @@
         "has_run_ip_tcl": "true"
       },
       "freq_meter_ip_0": {
-        "vlnv": "xilinx.com:user:freq_meter_ip_:2",
-        "ip_revision": "2",
+        "vlnv": "xilinx.com:user:freq_meter_ip:2",
+        "ip_revision": "1",
         "xci_name": "design_1_freq_meter_ip_0_0",
         "xci_path": "ip\\design_1_freq_meter_ip_0_0\\design_1_freq_meter_ip_0_0.xci",
         "inst_hier_path": "freq_meter_ip_0",
@@ -595,8 +595,8 @@
       "rst_clk_wiz_1_100M_peripheral_aresetn": {
         "ports": [
           "rst_clk_wiz_1_100M/peripheral_aresetn",
-          "freq_meter_ip_0/s_axi_aresetn",
-          "axi_smc/aresetn"
+          "axi_smc/aresetn",
+          "freq_meter_ip_0/s_axi_aresetn"
         ]
       },
       "sig_in_0_1": {
@@ -641,7 +641,7 @@
       "file": {
         "name": "..\\..\\..\\sim_1\\imports\\build\\freq_meter_component.elf",
         "type": "ELF",
-        "checksum": "2427436596",
+        "checksum": "3994301744",
         "IsVisible": "1",
         "ScopedToRef": "design_1",
         "ScopedToCell": [

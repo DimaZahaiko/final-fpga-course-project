@@ -2,7 +2,7 @@
 <spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <spirit:vendor>xilinx.com</spirit:vendor>
   <spirit:library>user</spirit:library>
-  <spirit:name>freq_meter_ip_</spirit:name>
+  <spirit:name>freq_meter_ip</spirit:name>
   <spirit:version>2</spirit:version>
   <spirit:busInterfaces>
     <spirit:busInterface>
@@ -228,7 +228,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>9c0408b6</spirit:value>
+            <spirit:value>3fea869c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -244,7 +244,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>9c0408b6</spirit:value>
+            <spirit:value>3fea869c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -273,7 +273,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>f64a5dae</spirit:value>
+            <spirit:value>abd1bb30</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -609,7 +609,7 @@
       <spirit:file>
         <spirit:name>src/freq_meter_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_9c0408b6</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_3fea869c</spirit:userFileType>
         <spirit:userFileType>IMPORTED_FILE</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -641,9 +641,9 @@
     <spirit:fileSet>
       <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>xgui/freq_meter_ip__v2.tcl</spirit:name>
+        <spirit:name>xgui/freq_meter_ip_v2.tcl</spirit:name>
         <spirit:fileType>tclSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_f64a5dae</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_abd1bb30</spirit:userFileType>
         <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -681,14 +681,17 @@
       </xilinx:taxonomies>
       <xilinx:displayName>freq_meter_ip_v2_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-10-21T19:11:35Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>1</xilinx:coreRevision>
+      <xilinx:upgrades>
+        <xilinx:canUpgradeFrom>xilinx.com:user:freq_meter_ip_:2</xilinx:canUpgradeFrom>
+      </xilinx:upgrades>
+      <xilinx:coreCreationDateTime>2026-10-22T09:07:02Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2026.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="fc8eaf8e"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="c930e363"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="5e255a57"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="fffdadcf"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="32f673b1"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="ba5c3b52"/>
     </xilinx:packagingInfo>

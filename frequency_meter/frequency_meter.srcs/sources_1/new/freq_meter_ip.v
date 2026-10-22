@@ -178,7 +178,7 @@ module freq_meter_ip(
                     end
                 end
                 2'h1: begin
-                    if (s_axi_wstrb[0] && timer != window) ctrl <= s_axi_wdata[0];
+                    if (s_axi_wstrb[0] && !counting) ctrl <= s_axi_wdata[0];
                 end
                 endcase
             end

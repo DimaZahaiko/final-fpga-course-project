@@ -84,7 +84,7 @@ module tb_frequency_meter;
         araddr = 4'h8; arvalid = 1'b1;  // read count
         rready = 1'b1;
         wait (rvalid);
-        if (rdata == expected) $display("Measurment is complete. The counted value is %h", rdata);
+        if (rdata == expected) $display("PASS. The counted value is %0d", rdata);
         else $display("ERROR. Got %d, insted of %d", rdata, expected);
         rready = 1'b1;
     end

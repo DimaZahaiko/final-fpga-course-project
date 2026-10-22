@@ -244,7 +244,7 @@
                 "SX": "/freq_meter_ip_0",
                 "SI": "s_axi",
                 "SS": "reg0",
-                "SV": "xilinx.com:user:freq_meter_ip_:2",
+                "SV": "xilinx.com:user:freq_meter_ip:2",
                 "TM": "data",
                 "TU": "register"
             }

@@ -12,8 +12,8 @@ int main(void){
     u32 time_in_clks = 1000;
     Xil_Out32(FREQ_METER, time_in_clks);
     Xil_Out32(FREQ_METER + CTRL, 1);
-
-    
+    Xil_Out32(FREQ_METER + CTRL, 0);
+     
     while(!Xil_In32(FREQ_METER + STATUS));
     u32 counts = Xil_In32(FREQ_METER + COUNT);
     
